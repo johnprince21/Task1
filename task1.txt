@@ -1,0 +1,89 @@
+Task 1 :
+
+What is HTTP.
+Difference between HTTP1.1 vs HTTP2.
+What is Object in Javascript.
+Explanation on internal representation of Objects in Javascript.
+
+What is HTTP.
+
+> HTTP stands for hypertext transfer protocol & it is used in client-server communication.
+
+> By using HTTP user sends the request to the server & the server sends the response to the user.
+
+> There are several stages of development of HTTP but we will focus mainly on HTTP/1.1 which was created in 1997 & the new one is HTTP/2 which was created in 2015.
+
+
+
+Difference between HTTP1.1 vs HTTP2.
+
+
+HTTP1.1 :
+
+> HTTP1.1 was created in 1997
+
+> Developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web.
+
+> HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server.
+ Process steps are as enlisted :
+
+1.The client (browser) has to send a request to the server using the method (GET/POST).
+
+2.Server responds with the requested resource, for example – image, alongside the status of what it did to the client’s request.
+
+> HTTP1 was known to have poor response time. With websites becoming more resource-intensive, the protocol was losing its efficiency. It progressively became essential to minimize latency and boost page load speeds
+
+
+
+ HTTP2 : 
+
+> HTTP2 was created in 2015
+
+> HTTP2 was released at Google as the significant improvement of its predecessor.
+
+> It was developed over the SPDY protocol. HTTP2 works on the binary framing layer instead of textual that converts all the messages in binary format.
+
+> It works on fully multiplexed that is one TCP connection is used for multiple requests. 
+
+> HTTP2 aims at simplifying, speeding up, and empowering the applications across the internet. To achieve the same, the protocol emphasizes on page load time, resource optimization, and round-trip time reduction.
+
+ > HTTP2 is supported on almost all popular web browsers, such as Chrome, Firefox, Internet Explorer, and Safari.
+
+
+
+What is Object in Javascript:
+
+> An object is a collection of properties, and a property is an association between a name (or key) and a value.
+
+> A property's value can be a function, in which case the property is known as a method.
+
+
+
+ Object Type:
+
+> The most important data type and form the building blocks for modern JavaScript.
+
+> Objects can be created using the Object() constructor or the object initializer / literal syntax.
+
+
+
+Properties of Object:
+
+
+> A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. 
+
+> Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+
+> The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation. ( example: objectName.propertyName )
+
+
+
+Internal Representation of Objects:
+
+ > JavaScript engines use various data structures to represent objects efficiently.
+
+> One common approach is using a hash table or a similar structure to store the object’s properties and their corresponding values.
+> This allows for fast access and manipulation of properties.
+
+
+
